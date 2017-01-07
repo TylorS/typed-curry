@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Well-typed curry functions for TypeScript",
   "main": "lib/index.js",
+  "jsnext:main": "lib.es2015/index.js",
+  "module": "lib.es2015/index.js",
+  "typings": "lib.es2015/index.d.ts",
   "scripts": {
     "build": "nb tsc",
     "commit": "nb commit",
